@@ -2,17 +2,17 @@
 export default {
   // --- INTEGRAÇÃO PHP ---
   DONATION_API_URL: "https://vittozao.com/doar/api_donations.php",
-  
+
   // CORREÇÃO: Apenas a senha, sem "API_SECRET_KEY="
-  DONATION_API_KEY: "dsakldh34321jsalkhdui317826312vittozao", 
-  
+  DONATION_API_KEY: "",
+
   POLL_INTERVAL_MS: 30000, // 30 segundos
 
   // --- ELEVENLABS ---
-  ELEVEN_API_KEY: process.env.ELEVEN_API_KEY || "sk_c656e71b2b2e084a7a464fb9022c97b3d498c6d8720cc830",
+  ELEVEN_API_KEY: process.env.ELEVEN_API_KEY || "",
   ELEVEN_MODEL_ID: "eleven_multilingual_v2",
   ELEVEN_OUTPUT_FORMAT: "mp3_44100_128",
-  
+
   ELEVEN_VOICE_SETTINGS: {
     stability: 0.5,
     similarity_boost: 0.75,
@@ -36,6 +36,6 @@ export default {
 
   OVERLAY_PRE_SHOW_MS: 1500,
   OVERLAY_POST_HIDE_MS: 1500,
-  
+
   ARCHIVE_ROOT_NAME: "DonateTTS_Audios",
 };
