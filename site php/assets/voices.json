@@ -1,0 +1,38 @@
+    [
+      {
+        "label": "Vitto",
+        "id": "IwDvd6l61AFDUFrrOmp6",
+        "image": "assets/images/vitto.webp",
+        "previewAudio": "assets/voices/vitto.mp3"
+      },
+      {
+        "label": "BRKSEDU",
+        "id": "RpoRH62g4guuflYcCN0i",
+        "image": "assets/images/brksedu.jpg",
+        "previewAudio": "assets/voices/brksedu.mp3"
+      },
+      {
+        "label": "WaveIGL",
+        "id": "S90MFu1lps7paZBjXCSO",
+        "image": "assets/images/wave.jpg",
+        "previewAudio": "assets/voices/wave.mp3"
+      },
+      {
+        "label": "Fallen",
+        "id": "dncAD6dCMrVEIikmjkOh",
+        "image": "assets/images/fallen.jpg",
+        "previewAudio": "assets/voices/fallen.mp3"
+      },
+      {
+          "label": "Gaules",
+          "id": "EbzzoumZLebjZvINHHpE",
+          "image": "assets/images/gaules.jpg",
+          "previewAudio": "assets/voices/gaules.mp3"
+      },
+       {
+          "label": "Cariani",
+          "id": "2ifFbhWSEH0kwEltBD3h",
+          "image": "assets/images/cariani.png",
+          "previewAudio": "assets/voices/cariani.mp3"
+      }
+    ]

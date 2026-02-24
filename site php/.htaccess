@@ -1,0 +1,14 @@
+# Bloqueia acesso direto ao arquivo de doações
+<Files "donations.json">
+    Require all denied
+</Files>
+
+# Bloqueia acesso direto ao arquivo de configuração (.env)
+<Files ".env">
+    Require all denied
+</Files>
+
+# Bloqueia acesso a arquivos de log, se houver
+<Files "*.log">
+    Require all denied
+</Files>
